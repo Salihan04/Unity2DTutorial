@@ -74,6 +74,33 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &181591692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 181591693}
+  m_Layer: 9
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &181591693
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181591692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -.769999981, z: 0}
+  m_LocalScale: {x: .599303544, y: .594806552, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1234331349}
+  m_RootOrder: 0
 --- !u!1 &1197525636
 GameObject:
   m_ObjectHideFlags: 0
@@ -150,7 +177,7 @@ GameObject:
   - 61: {fileID: 1234331350}
   - 95: {fileID: 1234331352}
   - 114: {fileID: 1234331353}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,9 +228,10 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1234331346}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.91000009, y: -.430000007, z: 0}
+  m_LocalPosition: {x: -3.91000009, y: -1.05999994, z: 0}
   m_LocalScale: {x: 1.66860354, y: 1.68121886, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 181591693}
   m_Father: {fileID: 0}
   m_RootOrder: 1
 --- !u!61 &1234331350
@@ -255,6 +283,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 10
+  groundCheck: {fileID: 181591693}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 4294966783
+  jumpForce: 700
 --- !u!1 &1949560438
 GameObject:
   m_ObjectHideFlags: 0
