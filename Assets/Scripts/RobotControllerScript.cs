@@ -26,7 +26,7 @@ public class RobotControllerScript : MonoBehaviour {
 	void FixedUpdate () 
 	{
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
-		anim.SetBool("Ground", grounded);
+		anim.SetBool("Grounded", grounded);
 
 		if(grounded)
 			doubleJump = false;
