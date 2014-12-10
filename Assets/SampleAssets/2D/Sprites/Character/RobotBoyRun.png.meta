@@ -18,6 +18,22 @@ TextureImporter:
     21300026: RobotBoyRun13
     21300028: RobotBoyRun14
     21300030: RobotBoyRun15
+    21300032: RobotBoyRun_0
+    21300034: RobotBoyRun_1
+    21300036: RobotBoyRun_2
+    21300038: RobotBoyRun_3
+    21300040: RobotBoyRun_4
+    21300042: RobotBoyRun_5
+    21300044: RobotBoyRun_6
+    21300046: RobotBoyRun_7
+    21300048: RobotBoyRun_8
+    21300050: RobotBoyRun_9
+    21300052: RobotBoyRun_10
+    21300054: RobotBoyRun_11
+    21300056: RobotBoyRun_12
+    21300058: RobotBoyRun_13
+    21300060: RobotBoyRun_14
+    21300062: RobotBoyRun_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -75,7 +91,7 @@ TextureImporter:
     compressionQuality: 50
   spriteSheet:
     sprites:
-    - name: RobotBoyRun00
+    - name: RobotBoyRun_0
       rect:
         serializedVersion: 2
         x: 0
@@ -83,9 +99,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun01
+    - name: RobotBoyRun_1
       rect:
         serializedVersion: 2
         x: 275
@@ -93,9 +109,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun02
+    - name: RobotBoyRun_2
       rect:
         serializedVersion: 2
         x: 550
@@ -103,9 +119,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun03
+    - name: RobotBoyRun_3
       rect:
         serializedVersion: 2
         x: 825
@@ -113,9 +129,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun04
+    - name: RobotBoyRun_4
       rect:
         serializedVersion: 2
         x: 1100
@@ -123,9 +139,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun05
+    - name: RobotBoyRun_5
       rect:
         serializedVersion: 2
         x: 1375
@@ -133,9 +149,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun06
+    - name: RobotBoyRun_6
       rect:
         serializedVersion: 2
         x: 1650
@@ -143,9 +159,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun07
+    - name: RobotBoyRun_7
       rect:
         serializedVersion: 2
         x: 0
@@ -153,9 +169,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun08
+    - name: RobotBoyRun_8
       rect:
         serializedVersion: 2
         x: 275
@@ -163,9 +179,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun09
+    - name: RobotBoyRun_9
       rect:
         serializedVersion: 2
         x: 550
@@ -173,9 +189,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun10
+    - name: RobotBoyRun_10
       rect:
         serializedVersion: 2
         x: 825
@@ -183,9 +199,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun11
+    - name: RobotBoyRun_11
       rect:
         serializedVersion: 2
         x: 1100
@@ -193,9 +209,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun12
+    - name: RobotBoyRun_12
       rect:
         serializedVersion: 2
         x: 1375
@@ -203,9 +219,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun13
+    - name: RobotBoyRun_13
       rect:
         serializedVersion: 2
         x: 1650
@@ -213,9 +229,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun14
+    - name: RobotBoyRun_14
       rect:
         serializedVersion: 2
         x: 0
@@ -223,9 +239,9 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: RobotBoyRun15
+    - name: RobotBoyRun_15
       rect:
         serializedVersion: 2
         x: 275
@@ -233,7 +249,7 @@ TextureImporter:
         width: 275
         height: 275
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
